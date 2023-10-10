@@ -1,3 +1,9 @@
 .badge {
   @apply bg-gray2 text-white py-1 px-4 rounded-full;
 }
+.btn-sm {
+  @apply border-[1.55px] border-gray1 text-gray1 rounded-xl px-6 py-2;
+}
+.active-sm {
+  @apply bg-blue px-6 py-2 rounded-xl text-white;
+}
