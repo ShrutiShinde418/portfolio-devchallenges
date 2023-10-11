@@ -2,9 +2,14 @@ import "./App.css";
 import React from "react";
 import Card from "./components/Card";
 import ExperienceItem from "./components/ExperienceItem";
+import ProjectItem from "./components/ProjectItem";
 import Button from "./components/Button";
 import photo from "./assets/photo 1.jpeg";
-import project1 from "./assets/screenshot.png";
+import project1 from "./assets/css-1.png";
+import project2 from "./assets/css-2.png";
+import project3 from "./assets/css-3.png";
+import project4 from "./assets/css-4.png";
+import project5 from "./assets/css-5.png";
 // import classNames from "classnames";
 import { IoMail } from "react-icons/io5";
 import { HiMiniPhone } from "react-icons/hi2";
@@ -34,7 +39,7 @@ const buttons = [
 const App = () => {
   return (
     <div className="bg-background pt-12">
-      <div className="xl:container xl:mx-auto px-5 xl:px-0 min-h-screen grid xl:grid-cols-3 md:grid-cols-2 xl:grid-rows-6 gap-8">
+      <div className="xl:container xl:mx-auto p-5 xl:px-0 min-h-screen grid xl:grid-cols-3 md:grid-cols-2 gap-8">
         <Card className="flex flex-col">
           <img
             src={photo}
@@ -100,7 +105,7 @@ const App = () => {
         </Card>
         <div className="col-span-2 flex flex-col gap-8">
           <Card className="flex flex-col gap-4 items-start">
-            <p className="text-gray1 font-normal text-xl">Projects (4)</p>
+            <p className="text-gray1 font-normal text-xl">Projects (5)</p>
             <div className="flex gap-5">
               {buttons.map((button) => (
                 <Button
@@ -111,22 +116,42 @@ const App = () => {
               ))}
             </div>
           </Card>
-          <Card className="grid grid-cols-2">
-            <img src={project1} alt="Gallery Page" />
-            <div className="flex flex-col">
-              <ul className="flex gap-4">
-                <li>#HTML</li>
-                <li>#CSS</li>
-                <li>#Responsive</li>
-              </ul>
-              <p>My Gallery</p>
-              <p>
-                In this project, I worked with HTML and Vanilla CSS to create a
+          <ProjectItem
+            title="My Gallery"
+            description="This is solution to a challenge given by devchallenges.io (legacy). In this project, I worked with HTML and Vanilla CSS to create a
                 responsive page containing images and other content. The images
-                were positioned using CSS Grid.
-              </p>
-            </div>
-          </Card>
+                were positioned using CSS Grid."
+            tags={["#HTML", "#CSS", "#Responsive", "#CSSGrid", "#Flexbox"]}
+            image={project1}
+          />
+          <ProjectItem
+            title="Recipe Page"
+            description="This is solution to a challenge given by devchallenges.io (legacy). In this project, I worked with HTML and Vanilla CSS to create a
+                responsive recipe page. Flexbox was used to position the content. One can select a checkbox if one has the ingredients or has finished a step."
+            tags={["#HTML", "#CSS", "#Responsive", "#Flexbox"]}
+            image={project2}
+          />
+          <ProjectItem
+            title="404 Not Found page"
+            description="This is solution to a challenge given by devchallenges.io (legacy). In this project, I worked with HTML and Vanilla CSS to create a
+                responsive recipe page. Flexbox was used to position the content. One can select a checkbox if one has the ingredients or has finished a step."
+            tags={["#HTML", "#CSS", "#Responsive", "#Flexbox"]}
+            image={project3}
+          />
+          <ProjectItem
+            title="NFT Preview Card Component"
+            description="This is solution to a challenge given by frontendmentor.io. In this project, I worked with HTML and Vanilla CSS to create a
+                NFT Preview Card Component."
+            tags={["#HTML", "#CSS", "#Responsive", "#Flexbox", "#CSSGrid"]}
+            image={project4}
+          />
+          <ProjectItem
+            title="Product Preview Card"
+            description="This is solution to a challenge given by frontendmentor.io. In this project, I worked with HTML and Vanilla CSS to create a
+                NFT Preview Card Component."
+            tags={["#HTML", "#CSS", "#Responsive", "#Flexbox", "#CSSGrid"]}
+            image={project5}
+          />
         </div>
       </div>
     </div>

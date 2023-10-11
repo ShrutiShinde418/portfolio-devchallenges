@@ -5,5 +5,17 @@
   @apply border-[1.55px] border-gray1 text-gray1 rounded-xl px-6 py-2;
 }
 .active-sm {
-  @apply bg-blue px-6 py-2 rounded-xl text-white;
+  @apply border-[1.55px] border-blue bg-blue px-6 py-2 rounded-xl text-white;
+}
+.active-md {
+  @apply border-[1.55px] border-blue bg-blue px-10 py-2 rounded-xl text-white;
+}
+.active-outline {
+  @apply border-[1.55px] border-blue px-10 py-2 rounded-xl text-blue;
+}
+.project__title {
+  @apply text-gray1 text-2xl font-medium;
+}
+.project__description {
+  @apply text-gray2;
 }
