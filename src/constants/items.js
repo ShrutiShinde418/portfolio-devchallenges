@@ -30,3 +30,12 @@ export const badges = [
   "Material UI",
   "Redux",
 ];
+
+export const buttons = [
+  { content: "CSS" },
+  { content: "SASS" },
+  { content: "LESS" },
+  { content: "Bootstrap" },
+  { content: "Tailwind" },
+  { content: "React" },
+];

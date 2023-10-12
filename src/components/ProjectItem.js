@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "./Card";
 import Button from "./Button";
+import RedirectButton from "./RedirectButton";
 import classNames from "classnames";
 
 const ProjectItem = (props) => {
@@ -19,7 +20,7 @@ const ProjectItem = (props) => {
       <div className="flex flex-col gap-5">
         <ul className="flex gap-4 text-gray1">
           {props.tags.map((tag) => (
-            <li>{tag}</li>
+            <li key={tag}>{tag}</li>
           ))}
         </ul>
         <p className="project__title">{props.title}</p>
@@ -27,8 +28,12 @@ const ProjectItem = (props) => {
         <div
           className={classNames(props.buttonClasses, "flex mt-auto mb-5 gap-3")}
         >
-          <Button content="Demo" className="active-md" link={props.demoLink} />
-          <Button
+          <RedirectButton
+            content="Demo"
+            className="active-md"
+            link={props.demoLink}
+          />
+          <RedirectButton
             content="Code"
             className="active-outline"
             link={props.codeLink}

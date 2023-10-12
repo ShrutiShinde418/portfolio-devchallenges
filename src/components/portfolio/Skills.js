@@ -8,7 +8,9 @@ const Skills = () => {
       <p className="uppercase text-gray1 font-semibold text-lg">Front end</p>
       <ul className="flex gap-4 flex-wrap">
         {badges.map((badge) => (
-          <li className="badge">{badge}</li>
+          <li className="badge" key={badge}>
+            {badge}
+          </li>
         ))}
       </ul>
     </Card>

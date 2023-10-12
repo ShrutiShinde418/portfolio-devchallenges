@@ -12,15 +12,8 @@ import About from "./components/portfolio/About";
 import Experience from "./components/portfolio/Experience";
 import Achievement from "./components/portfolio/Achievement";
 import Skills from "./components/portfolio/Skills";
-
-const buttons = [
-  { content: "CSS", className: "active-sm" },
-  { content: "SASS", className: "btn-sm" },
-  { content: "LESS", className: "btn-sm" },
-  { content: "Bootstrap", className: "btn-sm" },
-  { content: "Tailwind", className: "btn-sm" },
-  { content: "React", className: "btn-sm" },
-];
+import TabBar from "./components/portfolio/TabBar";
+import { buttons } from "./constants/items";
 
 const projects = [
   {
@@ -94,20 +87,7 @@ const App = () => {
         <Achievement />
         <Experience />
         <div className="col-span-2 flex flex-col gap-8">
-          <Card className="flex flex-col gap-4 items-start">
-            <p className="text-gray1 font-normal text-xl">Projects (5)</p>
-            <div className="flex gap-5">
-              {buttons.map((button) => (
-                <Button
-                  type="button"
-                  className={
-                    activeTab === button.content ? "active-sm" : "btn-sm"
-                  }
-                  content={button.content}
-                />
-              ))}
-            </div>
-          </Card>
+          <TabBar activeTab={activeTab} setActiveTab={setActiveTab} />
           {projects[0].CSS.map((item) => (
             <ProjectItem
               title={item.title}
@@ -118,6 +98,7 @@ const App = () => {
               demoLink={item.demoLink}
               imageClasses={item.imageClasses}
               cardClasses={item.cardClasses}
+              key={item.title}
             />
           ))}
         </div>

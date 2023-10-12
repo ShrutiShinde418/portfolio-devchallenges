@@ -12,6 +12,7 @@ const Experience = () => {
           duration={item.duration}
           title={item.title}
           subtitle={item.subtitle}
+          key={item.title}
         />
       ))}
     </Card>
