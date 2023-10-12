@@ -3,9 +3,15 @@ import classNames from "classnames";
 
 const Button = (props) => {
   return (
-    <button type={props.type} className={classNames(props.className)}>
-      {props.content}
-    </button>
+    <a href={props.link} target="_blank" rel="noreferrer">
+      <button
+        type={props.type}
+        className={classNames(props.className)}
+        onClick={props.onClick}
+      >
+        {props.content}
+      </button>
+    </a>
   );
 };
 
