@@ -6,11 +6,18 @@ import css3 from "../../assets/css-3.png";
 import css4 from "../../assets/css-4.png";
 import css5 from "../../assets/css-5.png";
 import sass1 from "../../assets/sass-1.png";
+import sass2 from "../../assets/sass-2.png";
+import sass3 from "../../assets/sass-3.png";
 import bootstrap1 from "../../assets/bootstrap-1.png";
 import bootstrap2 from "../../assets/bootstrap-2.png";
 import bootstrap3 from "../../assets/bootstrap-3.png";
+import bootstrap4 from "../../assets/bootstrap-4.png";
+import bootstrap5 from "../../assets/bootstrap-5.png";
 import tailwind1 from "../../assets/tailwind-1.png";
+import tailwind2 from "../../assets/tailwind-2.jpg";
+import tailwind3 from "../../assets/tailwind-3.png";
 import react1 from "../../assets/react-1.png";
+import react2 from "../../assets/react-2.png";
 import less1 from "../../assets/less-1.png";
 
 const projects = {
@@ -83,6 +90,31 @@ const projects = {
       imageClasses: "h-full object-cover",
       cardClasses: "gap-8",
     },
+    {
+      title: "Huddle Landing Page with Single Introductory Section",
+      description:
+        "This is a Frontend Mentor solution to the Huddle landing page problem with a single introductory piece. This page was created with SASS, Grid, and Flexbox.",
+      tags: ["#HTML", "#SASS", "#Responsive", "#CSSGrid", "#Flexbox"],
+      image: sass2,
+      codeLink:
+        "https://github.com/ShrutiShinde418/FrontendMentor1/tree/main/huddle-page",
+      demoLink: "https://huddle-page-gray.vercel.app/",
+      imageClasses: "h-full object-cover",
+      cardClasses: "gap-8",
+    },
+    {
+      title: "QR Code Component",
+      description:
+        "This is a solution to Frontend Mentor's QR code component challenge. SASS, Flexbox, and Semantic HTML were used to create the solution.",
+      tags: ["#HTML", "#SASS", "#Responsive", "#CSSGrid", "#Flexbox"],
+      image: sass3,
+      codeLink:
+        "https://github.com/ShrutiShinde418/FrontendMentor/tree/main/qr-code-component",
+      demoLink:
+        "https://qr-code-component-9napp7t9v-shrutishinde418.vercel.app/",
+      imageClasses: "h-full object-cover",
+      cardClasses: "gap-8",
+    },
   ],
   LESS: [
     {
@@ -132,6 +164,30 @@ const projects = {
       imageClasses: "h-full object-cover",
       cardClasses: "gap-8",
     },
+    {
+      title: "Order Summary Component",
+      description:
+        "This is a solution to Frontend Mentor's Order summary card problem. Flexbox and Bootstrap 5.1 were used to create this page.",
+      tags: ["#HTML", "#Bootstrap", "#Responsive", "#Flexbox"],
+      image: bootstrap4,
+      codeLink:
+        "https://github.com/ShrutiShinde418/FrontendMentor1/tree/main/order-summary-component",
+      demoLink: "https://order-summary-component-five-xi.vercel.app/",
+      imageClasses: "h-full object-cover",
+      cardClasses: "gap-8",
+    },
+    {
+      title: "Stats Preview Card Component",
+      description:
+        "This is a solution to the Frontend Mentor Stats preview card component challenge. Users should be able to examine the optimal layout based on the screen size of their device. Bootstrap 4.5 and Flexbox were used to create the solution.",
+      tags: ["#HTML", "#Bootstrap", "#Responsive", "#Flexbox"],
+      image: bootstrap5,
+      codeLink:
+        "https://github.com/ShrutiShinde418/FrontendMentor/tree/main/stats-preview-card-component-main",
+      demoLink: "https://stats-preview-card-component-main-ruddy.vercel.app/",
+      imageClasses: "h-full object-cover",
+      cardClasses: "gap-8",
+    },
   ],
   Tailwind: [
     {
@@ -145,22 +201,57 @@ const projects = {
       imageClasses: "h-full object-cover",
       cardClasses: "gap-8",
     },
+    {
+      title: "Single Price Grid Component",
+      description:
+        "This is a solution to Frontend Mentor's Single-price grid component challenge. Users should be able to view the best layout for the component based on the device's screen size, as well as a hover state for the Sign Up call-to-action on the desktop. TailwindCSS, Flexbox, and CSS Grid were used to create this solution.",
+      tags: ["#HTML", "#Tailwind", "#Responsive", "#Flexbox", "#CSSGrid"],
+      image: tailwind2,
+      codeLink:
+        "https://github.com/ShrutiShinde418/FrontendMentor1/tree/main/single-price-grid-component",
+      demoLink: "https://frontend-mentor1-hazel.vercel.app/",
+      imageClasses: "h-full object-cover",
+      cardClasses: "gap-8",
+    },
+    {
+      title: "Clipboard Landing Page",
+      description:
+        "This is a solution to the Frontend Mentor Clipboard landing page challenge made with Tailwind CSS. Users should be able to view the ideal layout for the site based on the screen size of their device, as well as hover states for all interactive items on the page.",
+      tags: ["#HTML", "#Tailwind", "#Responsive", "#Flexbox", "#CSSGrid"],
+      image: tailwind3,
+      codeLink:
+        "https://github.com/ShrutiShinde418/FrontendMentor2/tree/main/clipboard-landing-page",
+      demoLink:
+        "https://clipboard-landing-page-gewqeby2b-shrutishinde418.vercel.app/",
+      imageClasses: "h-full object-cover",
+      cardClasses: "gap-8",
+    },
   ],
   React: [
     {
       title: "Input Component",
       description:
-        "A reusable input component was constructed using react in this solution, and several types of input form fields were implemented by giving the necessary class names. Devchallenges.io (legacy) issued this challenge.",
-      tags: ["#JSX", "#SASS", "#Flexbox", "CSSGrid"],
+        "A reusable input component was constructed using React in this solution, and several types of input form fields were implemented by giving the necessary class names. Devchallenges.io (legacy) issued this challenge.",
+      tags: ["#JSX", "#SASS", "#Flexbox", "#CSSGrid"],
       image: react1,
       codeLink: "https://github.com/ShrutiShinde418/input-component",
       demoLink: "https://input-component-snowy.vercel.app/",
       imageClasses: "h-full object-cover",
-      cardClasses: "gap-8",
+    },
+    {
+      title: "Button Component",
+      description:
+        "In this approach, a reusable button component was built with React, and multiple sorts of buttons were implemented by assigning the appropriate class names. This challenge was offered by Devchallenges.io (legacy).",
+      tags: ["#JSX", "#SASS", "#Flexbox", "#CSSGrid"],
+      image: react2,
+      codeLink: "https://github.com/ShrutiShinde418/button-component",
+      demoLink: "https://button-component-six.vercel.app/",
+      imageClasses: "h-full object-cover",
     },
   ],
 };
-const CSSTabContent = ({ activeTab }) => {
+const TabContent = ({ activeTab }) => {
+  console.log(activeTab);
   return (
     <Fragment>
       {projects[activeTab].map((item) => (
@@ -180,4 +271,4 @@ const CSSTabContent = ({ activeTab }) => {
   );
 };
 
-export default CSSTabContent;
+export default TabContent;
