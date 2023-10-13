@@ -6,8 +6,6 @@ import { buttons } from "../../constants/items";
 const TabBar = (props) => {
   const handleClick = (e) => {
     props.setActiveTab(e.target.id);
-    console.log(e.target.id);
-    console.log(e);
   };
   return (
     <Card className="flex flex-col gap-4 items-start">
