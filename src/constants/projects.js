@@ -15,6 +15,8 @@ import bootstrap4 from "../assets/bootstrap-4.png";
 import bootstrap5 from "../assets/bootstrap-5.png";
 import bootstrap6 from "../assets/bootstrap-6.png";
 import bootstrap7 from "../assets/bootstrap-7.png";
+import bootstrap8 from "../assets/bootstrap-8.png";
+import bootstrap9 from "../assets/bootstrap-9.png";
 import tailwind1 from "../assets/tailwind-1.png";
 import tailwind2 from "../assets/tailwind-2.jpg";
 import tailwind3 from "../assets/tailwind-3.png";
@@ -23,9 +25,14 @@ import tailwind5 from "../assets/tailwind-5.png";
 import tailwind6 from "../assets/tailwind-6.png";
 import tailwind7 from "../assets/tailwind-7.png";
 import tailwind8 from "../assets/tailwind-8.png";
+import tailwind9 from "../assets/tailwind-9.png";
+import tailwind10 from "../assets/tailwind-10.png";
+import tailwind11 from "../assets/tailwind-11.png";
+import tailwind12 from "../assets/tailwind-12.png";
 import react1 from "../assets/react-1.png";
 import react2 from "../assets/react-2.png";
 import less1 from "../assets/less-1.png";
+import less2 from "../assets/less-2.png";
 
 export const projects = {
   CSS: [
@@ -160,6 +167,18 @@ export const projects = {
       imageClasses: "h-full object-cover",
       cardClasses: "gap-8",
     },
+    {
+      title: "Checkout Page",
+      description:
+        "In this approach, the LESS preprocessor was utilised to develop a Checkout Page. Devchallenges.io (legacy) issued the challenge. During this assignment, I learned how to carry out form validation along with making an counter and calculating the total price of the items and updating it dynamically.",
+      tags: ["#HTML", "#LESS", "#Flexbox", "CSSGrid"],
+      image: less2,
+      codeLink:
+        "https://github.com/ShrutiShinde418/DevChallenges1/tree/main/checkout-page",
+      demoLink: "https://checkout-page-green.vercel.app/",
+      imageClasses: "h-full object-cover",
+      cardClasses: "gap-8",
+    },
   ],
   Bootstrap: [
     {
@@ -240,6 +259,31 @@ export const projects = {
       codeLink:
         "https://github.com/ShrutiShinde418/FrontendMentor5/tree/main/huddle-landing-page-alternate-blocks",
       demoLink: "https://huddle-page-alternate-blocks.vercel.app/",
+      imageClasses: "h-full object-cover",
+      cardClasses: "gap-8",
+    },
+    {
+      title: "TimeNow Page",
+      description:
+        "This is a Bootstrap-based solution to codewell.cc's TimeNow Challenge. The solution is made up of two pages: a landing page and a pricing page.",
+      tags: ["#HTML", "#Bootstrap", "#Responsive", "#Flexbox", "#CSSGrid"],
+      image: bootstrap8,
+      codeLink:
+        "https://github.com/ShrutiShinde418/Codewell/tree/main/time-now",
+      demoLink: "https://time-now-landing.vercel.app/",
+      imageClasses: "h-full object-cover",
+      cardClasses: "gap-8",
+    },
+    {
+      title: "Interior Consultant",
+      description:
+        "This is a solution for the devchallenges.io (legacy) Interior Consultant Challenge developed with Bootstrap 5.1. During this challenge, I learned how to create an off-canvas menu. ",
+      tags: ["#HTML", "#Bootstrap", "#Responsive", "#Flexbox", "#CSSGrid"],
+      image: bootstrap9,
+      codeLink:
+        "https://github.com/ShrutiShinde418/DevChallenges/tree/main/interior-consultant",
+      demoLink:
+        "https://interior-consultant-hkaf2zt4l-shrutishinde418.vercel.app/",
       imageClasses: "h-full object-cover",
       cardClasses: "gap-8",
     },
@@ -341,6 +385,54 @@ export const projects = {
       codeLink:
         "https://github.com/ShrutiShinde418/FrontendMentor5/tree/main/fylo-landing-page",
       demoLink: "https://fylo-landing-page-roan-eight.vercel.app/",
+      imageClasses: "h-full object-cover",
+      cardClasses: "gap-8",
+    },
+    {
+      title: "Developer Portfolio",
+      description:
+        "This is a Tailwind CSS-based solution to codewell.cc's Developer Portfolio Challenge. This assignment taught me how to create a hamburger menu.",
+      tags: ["#HTML", "#Tailwind", "#Responsive", "#Flexbox", "#CSSGrid"],
+      image: tailwind9,
+      codeLink:
+        "https://github.com/ShrutiShinde418/Codewell/tree/main/developer-portfolio",
+      demoLink: "https://developer-portfolio-sable.vercel.app/",
+      imageClasses: "h-full object-cover",
+      cardClasses: "gap-8",
+    },
+    {
+      title: "Gradie Sign Up",
+      description:
+        "This is a Tailwind CSS-based solution for the Gradie Sign Up Page on codewell.cc.",
+      tags: ["#HTML", "#Tailwind", "#Responsive", "#Flexbox", "#CSSGrid"],
+      image: tailwind10,
+      codeLink:
+        "https://github.com/ShrutiShinde418/Codewell/tree/main/gradie-signup",
+      demoLink: "https://gradie-signup-j6ppgn0hv-shrutishinde418.vercel.app/",
+      imageClasses: "h-full object-cover",
+      cardClasses: "gap-8",
+    },
+    {
+      title: "My Team Page",
+      description:
+        "This is a Tailwind CSS solution to the My Team Page challenge. Devchallenges.io (legacy) issued the challenge.",
+      tags: ["#HTML", "#Tailwind", "#Responsive", "#Flexbox", "#CSSGrid"],
+      image: tailwind11,
+      codeLink:
+        "https://github.com/ShrutiShinde418/DevChallenges/tree/main/my-team-page",
+      demoLink: "https://my-team-page-seven-mu.vercel.app/",
+      imageClasses: "h-full object-cover",
+      cardClasses: "gap-8",
+    },
+    {
+      title: "Edie Homepage",
+      description:
+        "The Tailwind CSS solution to the Edie Homepage challenge is shown here. The challenge was issued by Devchallenges.io (legacy).",
+      tags: ["#HTML", "#Tailwind", "#Responsive", "#Flexbox", "#CSSGrid"],
+      image: tailwind12,
+      codeLink:
+        "https://github.com/ShrutiShinde418/DevChallenges1/tree/main/edie-homepage",
+      demoLink: "https://edie-homepage-seven.vercel.app/",
       imageClasses: "h-full object-cover",
       cardClasses: "gap-8",
     },
