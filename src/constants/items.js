@@ -1,3 +1,5 @@
+import reading from "../assets/reading.jpg";
+import carrom from "../assets/carrom.jpg";
 export const experienceItems = [
   {
     duration: "June 2020 - August 2020",
@@ -15,6 +17,17 @@ export const experienceItems = [
     title: "MERN Stack Developer - Skillcoup",
     subtitle:
       "Made forms for the Skillcoup Website using MERN Stack and MDBootstrap. Scrum and Agile Methodology was used with Jira Software.",
+  },
+];
+
+export const hobbiesItem = [
+  {
+    title: "Reading",
+    image: reading,
+  },
+  {
+    title: "Carrom",
+    image: carrom,
   },
 ];
 

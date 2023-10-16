@@ -14,12 +14,15 @@ import bootstrap3 from "../assets/bootstrap-3.png";
 import bootstrap4 from "../assets/bootstrap-4.png";
 import bootstrap5 from "../assets/bootstrap-5.png";
 import bootstrap6 from "../assets/bootstrap-6.png";
+import bootstrap7 from "../assets/bootstrap-7.png";
 import tailwind1 from "../assets/tailwind-1.png";
 import tailwind2 from "../assets/tailwind-2.jpg";
 import tailwind3 from "../assets/tailwind-3.png";
 import tailwind4 from "../assets/tailwind-4.png";
 import tailwind5 from "../assets/tailwind-5.png";
 import tailwind6 from "../assets/tailwind-6.png";
+import tailwind7 from "../assets/tailwind-7.png";
+import tailwind8 from "../assets/tailwind-8.png";
 import react1 from "../assets/react-1.png";
 import react2 from "../assets/react-2.png";
 import less1 from "../assets/less-1.png";
@@ -228,6 +231,18 @@ export const projects = {
       imageClasses: "h-full object-cover",
       cardClasses: "gap-8",
     },
+    {
+      title: "Huddle Landing Page with alternating feature blocks",
+      description:
+        "This is a Bootstrap 5.3.1 solution to the Frontend Mentor Huddle landing page with alternating feature blocks challenge. I had trouble inserting the card near the footer. I implemented the techniques I learnt in the Conquering Responsive Layouts course.",
+      tags: ["#HTML", "#Bootstrap", "#Responsive", "#Flexbox", "#CSSGrid"],
+      image: bootstrap7,
+      codeLink:
+        "https://github.com/ShrutiShinde418/FrontendMentor5/tree/main/huddle-landing-page-alternate-blocks",
+      demoLink: "https://huddle-page-alternate-blocks.vercel.app/",
+      imageClasses: "h-full object-cover",
+      cardClasses: "gap-8",
+    },
   ],
   Tailwind: [
     {
@@ -301,6 +316,31 @@ export const projects = {
         "https://github.com/ShrutiShinde418/FrontendMentor3/tree/main/testimonials-grid-section",
       demoLink:
         "https://frontend-mentor3-2hqzha40p-shrutishinde418.vercel.app/",
+      imageClasses: "h-full object-cover",
+      cardClasses: "gap-8",
+    },
+    {
+      title: "Result Summary Component",
+      description:
+        "Tailwind CSS was used to create this solution for the Frontend Mentor Results summary component challenge. Users should be able to see the best interface layout based on the size of their device's screen. For all interactive elements on the page, see the hover and focus states. I learned how to use the Fetch API. The data for the results was retrieved from a local JSON file using the Fetch API.",
+      tags: ["#HTML", "#Tailwind", "#Responsive", "#Flexbox", "#CSSGrid"],
+      image: tailwind7,
+      codeLink:
+        "https://github.com/ShrutiShinde418/FrontendMentor4/tree/main/results-summary-component",
+      demoLink:
+        "https://results-summary-component-hhfx4rvm9-shrutishinde418.vercel.app/",
+      imageClasses: "h-full object-cover",
+      cardClasses: "gap-8",
+    },
+    {
+      title: "Fylo Landing Page",
+      description:
+        "This is a Tailwind CSS solution to the Fylo landing page with a two-column layout problem on Frontend Mentor. This assignment taught me how to validate a form using Javascript.",
+      tags: ["#HTML", "#Tailwind", "#Responsive", "#Flexbox", "#CSSGrid"],
+      image: tailwind8,
+      codeLink:
+        "https://github.com/ShrutiShinde418/FrontendMentor5/tree/main/fylo-landing-page",
+      demoLink: "https://fylo-landing-page-roan-eight.vercel.app/",
       imageClasses: "h-full object-cover",
       cardClasses: "gap-8",
     },
