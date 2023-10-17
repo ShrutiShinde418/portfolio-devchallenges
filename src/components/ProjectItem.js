@@ -7,7 +7,7 @@ const ProjectItem = (props) => {
   return (
     <Card
       className={classNames(
-        "grid grid-cols-[1.25fr,1.75fr]",
+        "grid sm:grid-cols-[1.25fr,1.75fr]",
         props.cardClasses
       )}
     >
@@ -15,6 +15,7 @@ const ProjectItem = (props) => {
         src={props.image}
         alt={props.title}
         className={classNames(props.imageClasses, "rounded-lg")}
+        loading="lazy"
       />
       <div className="flex flex-col gap-5">
         <ul className="flex gap-4 text-gray1">

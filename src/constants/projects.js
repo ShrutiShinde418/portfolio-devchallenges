@@ -8,6 +8,7 @@ import sass2 from "../assets/sass-2.png";
 import sass3 from "../assets/sass-3.png";
 import sass4 from "../assets/sass-4.png";
 import sass5 from "../assets/sass-5.png";
+import sass6 from "../assets/sass-6.png";
 import bootstrap1 from "../assets/bootstrap-1.png";
 import bootstrap2 from "../assets/bootstrap-2.png";
 import bootstrap3 from "../assets/bootstrap-3.png";
@@ -17,6 +18,7 @@ import bootstrap6 from "../assets/bootstrap-6.png";
 import bootstrap7 from "../assets/bootstrap-7.png";
 import bootstrap8 from "../assets/bootstrap-8.png";
 import bootstrap9 from "../assets/bootstrap-9.png";
+import bootstrap10 from "../assets/bootstrap-10.png";
 import tailwind1 from "../assets/tailwind-1.png";
 import tailwind2 from "../assets/tailwind-2.jpg";
 import tailwind3 from "../assets/tailwind-3.png";
@@ -153,6 +155,18 @@ export const projects = {
       imageClasses: "h-full object-cover",
       cardClasses: "gap-8",
     },
+    {
+      title: "Minimal Blog Card",
+      description:
+        "This is an SASS-based solution to the Minimal Blog Card challenge on DevChallenges.io.",
+      tags: ["#HTML", "#SASS", "#Responsive", "#CSSGrid", "#Flexbox"],
+      image: sass6,
+      codeLink:
+        "https://github.com/ShrutiShinde418/DevChallenges2/tree/main/mini-blog-card",
+      demoLink: "https://minimal-blog-card-ten.vercel.app/",
+      imageClasses: "h-full object-cover",
+      cardClasses: "gap-8",
+    },
   ],
   LESS: [
     {
@@ -284,6 +298,18 @@ export const projects = {
         "https://github.com/ShrutiShinde418/DevChallenges/tree/main/interior-consultant",
       demoLink:
         "https://interior-consultant-hkaf2zt4l-shrutishinde418.vercel.app/",
+      imageClasses: "h-full object-cover",
+      cardClasses: "gap-8",
+    },
+    {
+      title: "Alarado Page",
+      description:
+        "This is a solution to the DevChallenges.io Alarado Page Challenge using Bootstrap 5.3.1. Users should be able to do the following: Create a simple homepage page that matches the provided design; the visitor should be able to switch between light and dark modes (light being the default). The page should adapt to multiple screen sizes. Users should be able to toggle side navigation on mobile. I learned how to build a toggle switch and toggle between light and dark modes.",
+      tags: ["#HTML", "#Bootstrap", "#Responsive", "#Flexbox", "#CSSGrid"],
+      image: bootstrap10,
+      codeLink:
+        "https://github.com/ShrutiShinde418/DevChallenges2/tree/main/alarado-page",
+      demoLink: "https://alarado-page.vercel.app/",
       imageClasses: "h-full object-cover",
       cardClasses: "gap-8",
     },

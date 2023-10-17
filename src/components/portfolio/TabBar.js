@@ -14,7 +14,7 @@ const TabBar = (props) => {
   return (
     <Card className="flex flex-col gap-4 items-start">
       <p className="text-gray1 font-normal text-xl">Projects ({projectNo})</p>
-      <ul className="flex gap-5">
+      <ul className="flex flex-wrap gap-5">
         {buttons.map((button) => (
           <Button
             type="button"
