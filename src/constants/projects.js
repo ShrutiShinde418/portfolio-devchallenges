@@ -35,6 +35,7 @@ import react1 from "../assets/react-1.png";
 import react2 from "../assets/react-2.png";
 import less1 from "../assets/less-1.png";
 import less2 from "../assets/less-2.png";
+import less3 from "../assets/less-3.png";
 
 export const projects = {
   CSS: [
@@ -190,6 +191,18 @@ export const projects = {
       codeLink:
         "https://github.com/ShrutiShinde418/DevChallenges1/tree/main/checkout-page",
       demoLink: "https://checkout-page-green.vercel.app/",
+      imageClasses: "h-full object-cover",
+      cardClasses: "gap-8",
+    },
+    {
+      title: "Insure Landing Page",
+      description:
+        "In this challenge, the LESS preprocessor was used to develop a Landing Page. frontendmentor.io issued the challenge. I learned how to construct a hamburger menu using an offcanvas.",
+      tags: ["#HTML", "#LESS", "#Flexbox", "CSSGrid"],
+      image: less3,
+      codeLink:
+        "https://github.com/ShrutiShinde418/FrontendMentor5/tree/main/insure-landing-page",
+      demoLink: "https://insure-landing-page-five-iota.vercel.app/",
       imageClasses: "h-full object-cover",
       cardClasses: "gap-8",
     },
