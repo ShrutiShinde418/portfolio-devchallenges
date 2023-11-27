@@ -36,6 +36,7 @@ import react2 from "../assets/react-2.png";
 import less1 from "../assets/less-1.png";
 import less2 from "../assets/less-2.png";
 import less3 from "../assets/less-3.png";
+import less4 from "../assets/less-4.png";
 
 export const projects = {
   CSS: [
@@ -203,6 +204,18 @@ export const projects = {
       codeLink:
         "https://github.com/ShrutiShinde418/FrontendMentor5/tree/main/insure-landing-page",
       demoLink: "https://insure-landing-page-five-iota.vercel.app/",
+      imageClasses: "h-full object-cover",
+      cardClasses: "gap-8",
+    },
+    {
+      title: "Testimonial Page",
+      description:
+        "In this challenge, the LESS preprocessor was used to develop a Testimonial Page. DevChallenges.io issued the challenge.",
+      tags: ["#HTML", "#LESS", "#Flexbox", "CSSGrid"],
+      image: less4,
+      codeLink:
+        "https://github.com/ShrutiShinde418/DevChallenges3/tree/main/testimonial-page",
+      demoLink: "https://testimonial-page-sepia.vercel.app/",
       imageClasses: "h-full object-cover",
       cardClasses: "gap-8",
     },
