@@ -33,6 +33,7 @@ import tailwind11 from "../assets/tailwind-11.png";
 import tailwind12 from "../assets/tailwind-12.png";
 import react1 from "../assets/react-1.png";
 import react2 from "../assets/react-2.png";
+import react3 from "../assets/react-3.png";
 import less1 from "../assets/less-1.png";
 import less2 from "../assets/less-2.png";
 import less3 from "../assets/less-3.png";
@@ -494,7 +495,7 @@ export const projects = {
       title: "Input Component",
       description:
         "A reusable input component was constructed using React in this solution, and several types of input form fields were implemented by giving the necessary class names. Devchallenges.io (legacy) issued this challenge.",
-      tags: ["#JSX", "#SASS", "#Flexbox", "#CSSGrid"],
+      tags: ["#React", "#JSX", "#SASS", "#Flexbox", "#CSSGrid"],
       image: react1,
       codeLink: "https://github.com/ShrutiShinde418/input-component",
       demoLink: "https://input-component-snowy.vercel.app/",
@@ -504,8 +505,18 @@ export const projects = {
       title: "Button Component",
       description:
         "In this approach, a reusable button component was built with React, and multiple sorts of buttons were implemented by assigning the appropriate class names. This challenge was offered by Devchallenges.io (legacy).",
-      tags: ["#JSX", "#SASS", "#Flexbox", "#CSSGrid"],
+      tags: ["#React", "#JSX", "#SASS", "#Flexbox", "#CSSGrid"],
       image: react2,
+      codeLink: "https://github.com/ShrutiShinde418/button-component",
+      demoLink: "https://button-component-six.vercel.app/",
+      imageClasses: "h-full object-cover",
+    },
+    {
+      title: "Quote Generator",
+      description:
+        "React and Tailwind CSS was used to create this solution. On the app's home page, random quotes were retrieved via an API. More quotes can be viewed. A button is provided to retrieve random quotes repeatedly. In this project, I learned how to use the useContext hook and how to fetch data from an API using the Fetch API. DevChallenges.io (legacy) issued the challenge.",
+      tags: ["#React", "#JSX", "#Tailwind", "#Flexbox"],
+      image: react3,
       codeLink: "https://github.com/ShrutiShinde418/button-component",
       demoLink: "https://button-component-six.vercel.app/",
       imageClasses: "h-full object-cover",
