@@ -17,7 +17,7 @@ const App = () => {
           <Experience />
           <Hobbies />
         </div>
-        <div className="grid grid-cols-2 col-span-2 gap-8">
+        <div className="flex flex-col sm:grid sm:grid-cols-2 sm:col-span-2 gap-8">
           <Skills />
           <Achievement />
           <TabBarComponent />

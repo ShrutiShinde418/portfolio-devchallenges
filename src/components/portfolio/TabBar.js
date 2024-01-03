@@ -6,7 +6,7 @@ import { projects } from "../../constants/projects";
 import { useState } from "react";
 
 const TabBar = (props) => {
-  const [projectNo, setProjectNo] = useState(5);
+  const [projectNo, setProjectNo] = useState(projects[props.activeTab].length);
   const handleClick = (e) => {
     props.setActiveTab(e.target.id);
     setProjectNo(projects[e.target.id].length);

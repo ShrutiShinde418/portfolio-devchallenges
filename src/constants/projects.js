@@ -3,6 +3,7 @@ import css2 from "../assets/css-2.png";
 import css3 from "../assets/css-3.png";
 import css4 from "../assets/css-4.png";
 import css5 from "../assets/css-5.png";
+import css6 from "../assets/css-6.png";
 import sass1 from "../assets/sass-1.png";
 import sass2 from "../assets/sass-2.png";
 import sass3 from "../assets/sass-3.png";
@@ -47,6 +48,8 @@ export const projects = {
         "This is solution to a challenge given by devchallenges.io (legacy). In this project, I worked with HTML and Vanilla CSS to create a responsive page containing images and other content. The images were positioned using CSS Grid.",
       tags: ["#HTML", "#CSS", "#Responsive", "#CSSGrid", "#Flexbox"],
       image: css1,
+      imageClasses: "h-full object-cover",
+      cardClasses: "sm:gap-0 gap-3",
       codeLink:
         "https://github.com/ShrutiShinde418/DevChallenges/tree/main/my-gallery",
       demoLink: "https://my-gallery-njh5l8s55-shrutishinde418.vercel.app/",
@@ -57,6 +60,8 @@ export const projects = {
         "This is a solution to a devchallenges.io (legacy) challenge. I used HTML and Vanilla CSS to construct a responsive recipe page for this project. The content was positioned using Flexbox. If you have the ingredients or have completed a step, you can tick the box next to it.",
       tags: ["#HTML", "#CSS", "#Responsive", "#Flexbox"],
       image: css2,
+      imageClasses: "h-full object-cover",
+      cardClasses: "sm:gap-0 gap-3",
       codeLink:
         "https://github.com/ShrutiShinde418/DevChallenges1/tree/main/recipe-page",
       demoLink: "https://recipe-page-eosin-omega.vercel.app/",
@@ -93,6 +98,18 @@ export const projects = {
       codeLink:
         "https://github.com/ShrutiShinde418/FrontendMentor2/tree/main/product-preview-card",
       demoLink: "https://product-preview-card-iota-sage.vercel.app/",
+      imageClasses: "h-full object-cover",
+      cardClasses: "gap-8",
+    },
+    {
+      title: "Blog Preview Card",
+      description:
+        "This is my response to a frontendmentor.io challenge. HTML and Vanilla CSS were used to construct a Blog Preview Card. CSS Grid was used to center the card",
+      tags: ["#HTML", "#CSS", "#Responsive", "#Flexbox", "#CSSGrid"],
+      image: css6,
+      codeLink:
+        "https://github.com/ShrutiShinde418/FrontendMentor6/tree/main/blog-preview-card",
+      demoLink: "https://blog-preview-card-pied.vercel.app/",
       imageClasses: "h-full object-cover",
       cardClasses: "gap-8",
     },
@@ -500,6 +517,7 @@ export const projects = {
       codeLink: "https://github.com/ShrutiShinde418/input-component",
       demoLink: "https://input-component-snowy.vercel.app/",
       imageClasses: "h-full object-cover",
+      cardClasses: "sm:gap-0 gap-3",
     },
     {
       title: "Button Component",

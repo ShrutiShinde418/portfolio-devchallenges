@@ -7,7 +7,7 @@ const ProjectItem = (props) => {
   return (
     <Card
       className={classNames(
-        "grid sm:grid-cols-[1.25fr,1.75fr]",
+        "sm:grid sm:grid-cols-[1.25fr,1.75fr] flex flex-col",
         props.cardClasses
       )}
     >
@@ -18,7 +18,7 @@ const ProjectItem = (props) => {
         loading="lazy"
       />
       <div className="flex flex-col gap-5">
-        <ul className="flex gap-4 text-gray1">
+        <ul className="flex flex-wrap lg:gap-4 gap-x-4 gap-y-1 text-gray1">
           {props.tags.map((tag) => (
             <li key={tag}>{tag}</li>
           ))}
