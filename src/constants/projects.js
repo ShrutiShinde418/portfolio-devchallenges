@@ -39,6 +39,7 @@ import less1 from "../assets/less-1.png";
 import less2 from "../assets/less-2.png";
 import less3 from "../assets/less-3.png";
 import less4 from "../assets/less-4.png";
+import less5 from "../assets/less-5.png";
 
 export const projects = {
   CSS: [
@@ -193,7 +194,7 @@ export const projects = {
       title: "Business Blog Card Solution",
       description:
         "The LESS preprocessor was used to create a business blog card in this solution. Devchallenges.io issued the challenge.",
-      tags: ["#HTML", "#LESS", "#Flexbox", "CSSGrid"],
+      tags: ["#HTML", "#LESS", "#Flexbox", "#CSSGrid"],
       image: less1,
       codeLink:
         "https://github.com/ShrutiShinde418/DevChallenges2/tree/main/business-blog-card",
@@ -205,7 +206,7 @@ export const projects = {
       title: "Checkout Page",
       description:
         "In this approach, the LESS preprocessor was utilised to develop a Checkout Page. Devchallenges.io (legacy) issued the challenge. During this assignment, I learned how to carry out form validation along with making an counter and calculating the total price of the items and updating it dynamically.",
-      tags: ["#HTML", "#LESS", "#Flexbox", "CSSGrid"],
+      tags: ["#HTML", "#LESS", "#Flexbox", "#CSSGrid"],
       image: less2,
       codeLink:
         "https://github.com/ShrutiShinde418/DevChallenges1/tree/main/checkout-page",
@@ -217,7 +218,7 @@ export const projects = {
       title: "Insure Landing Page",
       description:
         "In this challenge, the LESS preprocessor was used to develop a Landing Page. frontendmentor.io issued the challenge. I learned how to construct a hamburger menu using an offcanvas.",
-      tags: ["#HTML", "#LESS", "#Flexbox", "CSSGrid"],
+      tags: ["#HTML", "#LESS", "#Flexbox", "#CSSGrid"],
       image: less3,
       codeLink:
         "https://github.com/ShrutiShinde418/FrontendMentor5/tree/main/insure-landing-page",
@@ -229,11 +230,23 @@ export const projects = {
       title: "Testimonial Page",
       description:
         "In this challenge, the LESS preprocessor was used to develop a Testimonial Page. DevChallenges.io issued the challenge.",
-      tags: ["#HTML", "#LESS", "#Flexbox", "CSSGrid"],
+      tags: ["#HTML", "#LESS", "#Flexbox", "#CSSGrid"],
       image: less4,
       codeLink:
         "https://github.com/ShrutiShinde418/DevChallenges3/tree/main/testimonial-page",
       demoLink: "https://testimonial-page-sepia.vercel.app/",
+      imageClasses: "h-full object-cover",
+      cardClasses: "gap-8",
+    },
+    {
+      title: "Contact Page",
+      description:
+        "In this challenge, the LESS preprocessor was used to develop a Contact Page. DevChallenges.io issued the challenge.",
+      tags: ["#HTML", "#LESS", "#Flexbox", "#CSSGrid"],
+      image: less5,
+      codeLink:
+        "https://github.com/ShrutiShinde418/DevChallenges3/tree/main/contact-page",
+      demoLink: "https://contact-page-mauve.vercel.app/",
       imageClasses: "h-full object-cover",
       cardClasses: "gap-8",
     },
