@@ -4,6 +4,7 @@ import css3 from "../assets/css-3.png";
 import css4 from "../assets/css-4.png";
 import css5 from "../assets/css-5.png";
 import css6 from "../assets/css-6.png";
+import css7 from "../assets/css-7.png";
 import sass1 from "../assets/sass-1.png";
 import sass2 from "../assets/sass-2.png";
 import sass3 from "../assets/sass-3.png";
@@ -111,6 +112,18 @@ export const projects = {
       codeLink:
         "https://github.com/ShrutiShinde418/FrontendMentor6/tree/main/blog-preview-card",
       demoLink: "https://blog-preview-card-pied.vercel.app/",
+      imageClasses: "h-full object-cover",
+      cardClasses: "gap-8",
+    },
+    {
+      title: "Social Links Profile",
+      description:
+        "This is my response to a frontendmentor.io challenge. HTML and Vanilla CSS were used to construct a Social Links Profile.",
+      tags: ["#HTML", "#CSS", "#Responsive", "#Flexbox"],
+      image: css7,
+      codeLink:
+        "https://github.com/ShrutiShinde418/FrontendMentor6/tree/main/social-links-profile-main",
+      demoLink: "https://social-links-profile-ivory.vercel.app/",
       imageClasses: "h-full object-cover",
       cardClasses: "gap-8",
     },
