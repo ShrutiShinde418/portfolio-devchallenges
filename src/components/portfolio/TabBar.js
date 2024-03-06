@@ -3,12 +3,16 @@ import Card from "../Card";
 import Button from "../Button";
 import { buttons } from "../../constants/items";
 import { projects } from "../../constants/projects";
-import { useState } from "react";
+import { useState, useContext } from "react";
+import { TabBarContext } from "../../store/context";
 
 const TabBar = (props) => {
-  const [projectNo, setProjectNo] = useState(projects[props.activeTab].length);
+  const tabBarContext = useContext(TabBarContext);
+  const [projectNo, setProjectNo] = useState(
+    projects[tabBarContext.activeTab].length
+  );
   const handleClick = (e) => {
-    props.setActiveTab(e.target.id);
+    tabBarContext.setActiveTab(e.target.id);
     setProjectNo(projects[e.target.id].length);
   };
   return (
@@ -19,7 +23,9 @@ const TabBar = (props) => {
           <Button
             type="button"
             className={
-              props.activeTab === button.content ? "active-sm" : "btn-sm"
+              tabBarContext.activeTab === button.content
+                ? "active-sm"
+                : "btn-sm"
             }
             content={button.content}
             key={button.content}

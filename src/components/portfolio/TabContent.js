@@ -1,11 +1,13 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useContext } from "react";
 import ProjectItem from "../ProjectItem";
 import { projects } from "../../constants/projects";
+import { TabBarContext } from "../../store/context";
 
-const TabContent = ({ activeTab }) => {
+const TabContent = () => {
+  const tabBarContext = useContext(TabBarContext);
   return (
     <Fragment>
-      {projects[activeTab].map((item) => (
+      {projects[tabBarContext.activeTab].map((item) => (
         <ProjectItem
           title={item.title}
           description={item.description}
