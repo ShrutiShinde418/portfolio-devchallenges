@@ -36,11 +36,13 @@ import tailwind12 from "../assets/tailwind-12.png";
 import react1 from "../assets/react-1.png";
 import react2 from "../assets/react-2.png";
 import react3 from "../assets/react-3.png";
+import react4 from "../assets/react-4.png";
 import less1 from "../assets/less-1.png";
 import less2 from "../assets/less-2.png";
 import less3 from "../assets/less-3.png";
 import less4 from "../assets/less-4.png";
 import less5 from "../assets/less-5.png";
+import less6 from "../assets/less-6.png";
 
 export const projects = {
   CSS: [
@@ -260,6 +262,18 @@ export const projects = {
       codeLink:
         "https://github.com/ShrutiShinde418/DevChallenges3/tree/main/contact-page",
       demoLink: "https://contact-page-mauve.vercel.app/",
+      imageClasses: "h-full object-cover",
+      cardClasses: "gap-8",
+    },
+    {
+      title: "FAQ Accordion",
+      description:
+        "In this challenge, the LESS preprocessor was utilized to style an FAQ accordion. The FAQ accordion, a common UI component found on websites, allows users to toggle between questions and their respective answers, providing a compact and organized way to present information. The functionality of the accordion was implemented using Vanilla JavaScript.",
+      tags: ["#HTML", "#LESS", "#Flexbox", "#CSSGrid", "#JavaScript"],
+      image: less6,
+      codeLink:
+        "https://github.com/ShrutiShinde418/FrontendMentor6/tree/main/faq-accordion-main",
+      demoLink: "https://faq-accordion-amber-ten.vercel.app/",
       imageClasses: "h-full object-cover",
       cardClasses: "gap-8",
     },
@@ -559,10 +573,20 @@ export const projects = {
       title: "Quote Generator",
       description:
         "React and Tailwind CSS was used to create this solution. On the app's home page, random quotes were retrieved via an API. More quotes can be viewed. A button is provided to retrieve random quotes repeatedly. In this project, I learned how to use the useContext hook and how to fetch data from an API using the Fetch API. DevChallenges.io (legacy) issued the challenge.",
-      tags: ["#React", "#JSX", "#Tailwind", "#Flexbox"],
+      tags: ["#React", "#JSX", "#Tailwind", "#Flexbox", "#API"],
       image: react3,
       codeLink: "https://github.com/ShrutiShinde418/button-component",
       demoLink: "https://button-component-six.vercel.app/",
+      imageClasses: "h-full object-cover",
+    },
+    {
+      title: "Todo List App",
+      description:
+        "This ToDo app was created using React with Tailwind CSS. Redux Toolkit was utilized for state management. The app includes three tabs: All, Active, and Completed. The Redux Persist library was used to keep the store in local storage. DevChallenges.io (legacy) issued the challenge.",
+      tags: ["#React", "#JSX", "#Tailwind", "#Flexbox", "#CSSGrid"],
+      image: react4,
+      codeLink: "https://github.com/ShrutiShinde418/todo-devchallenges",
+      demoLink: "https://main--todo-devchallenges-solution.netlify.app/",
       imageClasses: "h-full object-cover",
     },
   ],

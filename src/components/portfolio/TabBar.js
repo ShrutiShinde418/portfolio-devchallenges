@@ -6,7 +6,7 @@ import { projects } from "../../constants/projects";
 import { useState, useContext } from "react";
 import { TabBarContext } from "../../store/context";
 
-const TabBar = (props) => {
+const TabBar = () => {
   const tabBarContext = useContext(TabBarContext);
   const [projectNo, setProjectNo] = useState(
     projects[tabBarContext.activeTab].length

@@ -1,7 +1,7 @@
 import React from "react";
 import classNames from "classnames";
 
-const Button = (props) => {
+const RedirectButton = (props) => {
   return (
     <a
       href={props.link}
@@ -14,4 +14,4 @@ const Button = (props) => {
   );
 };
 
-export default Button;
+export default RedirectButton;

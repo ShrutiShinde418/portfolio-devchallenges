@@ -1,5 +1,5 @@
 import "./App.css";
-import React, { useState } from "react";
+import React from "react";
 import About from "./components/portfolio/About";
 import Experience from "./components/portfolio/Experience";
 import Achievement from "./components/portfolio/Achievement";
@@ -31,7 +31,6 @@ const App = () => {
 };
 
 const TabBarComponent = () => {
-  // const [activeTab, setActiveTab] = useState("CSS");
   return (
     <div className="col-span-2 flex flex-col gap-8">
       <TabBar />
