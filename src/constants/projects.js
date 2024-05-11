@@ -37,6 +37,7 @@ import react1 from "../assets/react-1.png";
 import react2 from "../assets/react-2.png";
 import react3 from "../assets/react-3.png";
 import react4 from "../assets/react-4.png";
+import react5 from "../assets/react-5.png";
 import less1 from "../assets/less-1.png";
 import less2 from "../assets/less-2.png";
 import less3 from "../assets/less-3.png";
@@ -587,6 +588,16 @@ export const projects = {
       image: react4,
       codeLink: "https://github.com/ShrutiShinde418/todo-devchallenges",
       demoLink: "https://main--todo-devchallenges-solution.netlify.app/",
+      imageClasses: "h-full object-cover",
+    },
+    {
+      title: "Windbnb Clone",
+      description:
+        "This Windbnb clone was created using React and Tailwind CSS. ReduxJS Toolkit was used for state management. This app allows you to search for rooms according to various locations in Finland and the number of people staying.  DevChallenges.io (legacy) issued the challenge.",
+      tags: ["#React", "#JSX", "#Tailwind", "#Flexbox", "#CSSGrid"],
+      image: react5,
+      codeLink: "https://github.com/ShrutiShinde418/windbnb",
+      demoLink: "https://windbnb-sable.vercel.app/",
       imageClasses: "h-full object-cover",
     },
   ],
