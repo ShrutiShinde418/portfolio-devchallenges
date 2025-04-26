@@ -5,6 +5,7 @@ import css4 from "../assets/css-4.png";
 import css5 from "../assets/css-5.png";
 import css6 from "../assets/css-6.png";
 import css7 from "../assets/css-7.png";
+import css8 from "../assets/css-8.png";
 import sass1 from "../assets/sass-1.png";
 import sass2 from "../assets/sass-2.png";
 import sass3 from "../assets/sass-3.png";
@@ -33,6 +34,7 @@ import tailwind9 from "../assets/tailwind-9.png";
 import tailwind10 from "../assets/tailwind-10.png";
 import tailwind11 from "../assets/tailwind-11.png";
 import tailwind12 from "../assets/tailwind-12.png";
+import tailwind13 from "../assets/tailwind-13.png";
 import react1 from "../assets/react-1.png";
 import react2 from "../assets/react-2.png";
 import react3 from "../assets/react-3.png";
@@ -127,6 +129,18 @@ export const projects = {
       codeLink:
         "https://github.com/ShrutiShinde418/FrontendMentor6/tree/main/social-links-profile-main",
       demoLink: "https://social-links-profile-ivory.vercel.app/",
+      imageClasses: "h-full object-cover",
+      cardClasses: "gap-8",
+    },
+    {
+      title: "Ping coming soon page",
+      description:
+        "For this Frontend Mentor challenge, I developed a responsive landing page using HTML, Vanilla CSS, and Vanilla JS. The page features a user-friendly form for email input, with built-in validation to display an error message if the email entered is invalid. Clean, functional, and engaging design underpins this project.",
+      tags: ["#HTML", "#CSS", "#Responsive", "#Flexbox", "VanillaJS"],
+      image: css8,
+      codeLink:
+        "https://github.com/ShrutiShinde418/FrontendMentor7/tree/main/ping-coming-soon-page",
+      demoLink: "https://ping-coming-soon-page-nine-chi.vercel.app/",
       imageClasses: "h-full object-cover",
       cardClasses: "gap-8",
     },
@@ -544,6 +558,25 @@ export const projects = {
       codeLink:
         "https://github.com/ShrutiShinde418/DevChallenges1/tree/main/edie-homepage",
       demoLink: "https://edie-homepage-seven.vercel.app/",
+      imageClasses: "h-full object-cover",
+      cardClasses: "gap-8",
+    },
+    {
+      title: "Time Tracking Dashboard",
+      description:
+        "This Frontend Mentor challenge involves creating a site that adapts seamlessly to different screen sizes, incorporates hover effects for all interactive elements, and allows users to switch between daily, weekly, and monthly stats. The toggling functionality was implemented using Vanilla JS.",
+      tags: [
+        "#HTML",
+        "#Tailwind",
+        "#Responsive",
+        "#Flexbox",
+        "#CSSGrid",
+        "VanillaJS",
+      ],
+      image: tailwind13,
+      codeLink:
+        "https://github.com/ShrutiShinde418/FrontendMentor7/tree/main/time-tracking-dashboard",
+      demoLink: "https://time-tracking-dashboard-seven-beige.vercel.app/",
       imageClasses: "h-full object-cover",
       cardClasses: "gap-8",
     },
